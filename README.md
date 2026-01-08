@@ -17,6 +17,13 @@ A Claude Code plugin containing an [Agent Skill](https://code.claude.com/docs/en
 [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-green)](https://code.claude.com/docs/en/skills)
 [![Version](https://img.shields.io/badge/version-2.0.0-brightgreen)](https://github.com/OthmanAdi/planning-with-files/releases)
 
+## Versions
+
+| Version | Branch | Features | Install |
+|---------|--------|----------|---------|
+| **v2.0.0** (current) | `master` | Hooks, templates, scripts | `/plugin install planning-with-files@planning-with-files` |
+| **v1.0.0** (legacy) | `legacy` | Core 3-file pattern | `git clone -b legacy https://github.com/OthmanAdi/planning-with-files.git` |
+
 ## What's New in v2.0.0
 
 - **Hooks Integration** — Automatic plan re-reading and completion verification
